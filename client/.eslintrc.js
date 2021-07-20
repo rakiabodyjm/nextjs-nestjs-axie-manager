@@ -25,11 +25,8 @@ module.exports = {
     },
   },
   rules: {
-    'react/jsx-filename-extension': [
-      1,
-      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
-    ],
-    'prettier/prettier': 'error',
+    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
+    'prettier/prettier': 1,
     'react/forbid-prop-types': [
       1,
       { forbid: [''], checkContextTypes: false, checkChildContextTypes: false },
@@ -44,11 +41,7 @@ module.exports = {
         enforceForRenamedProperties: false,
       },
     ],
-    'react/destructuring-assignment': [
-      1,
-      'always',
-      { ignoreClassFields: false },
-    ],
+    'react/destructuring-assignment': [1, 'always', { ignoreClassFields: false }],
     'react/react-in-jsx-scope': 0,
     'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
@@ -126,4 +119,4 @@ module.exports = {
     // '@typescript-eslint/no-unused-vars-experimental': 1,
     // '@typescript-eslint/no-unused-vars': ['error'],
   },
-};
+}
