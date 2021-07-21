@@ -10,7 +10,6 @@ import { join } from 'path'
     GraphQLModule.forRoot({
       autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
       path: '/api/graphql',
-
       // cors: {
       //   origin: ['http://localhost:3000'],
       //   credentials: true,
